@@ -131,4 +131,8 @@ html, body {
   .supporting .col {
     width: 100%;
   }
+
+  .btn-more {
+    padding: 10px 20px;
+  }
 }
