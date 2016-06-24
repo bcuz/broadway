@@ -115,17 +115,17 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    padding: 15px 50px;
     font-size: 10px;
     font-weight: bold;
+        padding: 10px 20px;
     letter-spacing: 1.2px;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
   /* remember to change max/min */
     .btn-more {
-        padding: 10px 20px;
+    padding: 15px 50px;
     }
 }
 
