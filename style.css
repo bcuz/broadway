@@ -45,7 +45,7 @@ body {
     color: #333;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 0;
     margin-bottom: 80px;
     text-transform: uppercase;
@@ -130,10 +130,15 @@ body {
     }
 }
 
+
+@media screen and (min-width: 700px) {
+  /* remember to change max/min 1024 */
+  .main h1 {
+    font-size: 70px;
+  }
+}
+
 @media (max-width: 500px) {
-    .main h1 {
-        font-size: 50px;
-    }
     .supporting .col {
         width: 100%;
     }
