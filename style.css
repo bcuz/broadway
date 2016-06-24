@@ -69,8 +69,7 @@ body {
 }
 
 .supporting .col {
-    float: left;
-    width: 33%;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-bottom: 30px;
@@ -136,10 +135,8 @@ body {
   .main h1 {
     font-size: 70px;
   }
-}
-
-@media (max-width: 500px) {
     .supporting .col {
-        width: 100%;
+        float: left;
+        width: 33%;
     }
 }
