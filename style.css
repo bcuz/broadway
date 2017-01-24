@@ -98,10 +98,6 @@ header {
     margin-bottom: 40px;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .group:before,
 .group:after {
 content: "";
